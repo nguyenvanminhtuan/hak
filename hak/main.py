@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 
-# from hak.config import settings
+from hak.config import settings
 
 app = FastAPI(
-    # title=settings.PROJECT_NAME,
-    # description=settings.PROJECT_DESCRIPTION
+    title=settings.PROJECT_NAME,
+    description=settings.PROJECT_DESCRIPTION
 )
 
 
